@@ -15,8 +15,9 @@ hr {
 
 .header {
     background-color: rgb(30, 87, 194);
-    height: 100px;
+    height: 50px;
     color: whitesmoke;
+    border-radius: 5px;
 }
 
 .navBar{
@@ -29,4 +30,17 @@ hr {
 
 .navLi{
     padding: 20px;
+}
+
+/* img[src="./images/rachel_site_pic-modified.png"] {
+    border-radius: 18px;
+    border-style: solid;
+    border-color: cyan;
+    background-color: cyan;
+    padding: 0;
+} */
+
+.under-profile-pic {
+    display: flex;
+    align-items: center;
 }
