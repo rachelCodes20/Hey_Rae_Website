@@ -32,13 +32,15 @@ hr {
     padding: 20px;
 }
 
-/* img[src="./images/rachel_site_pic-modified.png"] {
+.icon {
     border-radius: 18px;
     border-style: solid;
     border-color: cyan;
     background-color: cyan;
     padding: 0;
-} */
+    width: 50px;
+    height: 60px;
+}
 
 .under-profile-pic {
     display: flex;
