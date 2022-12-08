@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Architects+Daughter+Display:wght@500&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Zen+Dots&display=swap');
 * {
     padding: 2px;
     margin: 0;
@@ -58,7 +58,8 @@ hr {
     align-items: center;
     justify-content: center;
     color: whitesmoke;
-    font-size: 4em;
+    font-size: 98px;
+    font-family: 'Zen Dots', cursive;
 }
 
 .under-profile-pic {
