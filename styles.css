@@ -4,6 +4,11 @@
     padding: 2px;
     margin: 0;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: whitesmoke;
+}
+
+body {
+    background-color: rgb(61, 101, 174);
 }
 
 div a {
@@ -12,12 +17,7 @@ div a {
     text-decoration: white;
   }
 
-hr {
-    border-top: 1px solid navy;
-    border-bottom: 0;
-    border-left: 0;
-    border-right: 0;
-}
+
 
 .header-style {
     background-color: rgb(97, 131, 193);
@@ -30,27 +30,17 @@ hr {
     justify-content: center;
     color: whitesmoke;
     font-size: 20px;
+    padding-bottom: 50px;
 }
 .navBar{
     font-size: 1rem;
     display:flex;
     justify-content: center;
-    color: whitesmoke;
     list-style: none;
 }
 
 .navLi{
     padding: 20px;
-}
-
-.icon {
-    border-radius: 18px;
-    border-style: solid;
-    border-color: cyan;
-    background-color: cyan;
-    padding: 0;
-    width: 50px;
-    height: 60px;
 }
 
 .name {
@@ -65,10 +55,25 @@ hr {
 .under-profile-pic {
     display: flex;
     align-items: center;
-    color: white;
 }
 
-.list-items {
-    color: black;
-    text-decoration: underline;
+div.education-container {
+    text-align: center;
+    font-size: 30px;
+    padding: 10px;
 }
+
+div.education-container a {
+    color: blue;
+}
+
+ul.education-div {
+    display:inline-block;
+    text-align: center;
+    font-size: 30px;
+    list-style: none;
+}
+
+/* div.list-items {
+    text-align: center;
+} */
