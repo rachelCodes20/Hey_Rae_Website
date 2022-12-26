@@ -15,6 +15,9 @@ html {
 body {
     background-color: rgb(61, 101, 174);
     margin:0;
+    color: #444;
+    background-color: #022c43;
+    overflow: hidden;
 }
 
 div a {
