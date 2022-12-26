@@ -8,8 +8,13 @@
     /* font-size: 30px; */
 }
 
+html {
+    font-size: 62%;
+}
+
 body {
     background-color: rgb(61, 101, 174);
+    margin:0;
 }
 
 div a {
