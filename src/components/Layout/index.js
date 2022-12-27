@@ -1,4 +1,4 @@
-import '../index.scss';
+import './index.scss';
 import { Routes } from 'react-router-dom'
 import SideBar from '../Sidebar'
 
