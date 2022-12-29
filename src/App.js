@@ -1,14 +1,15 @@
-import "./components/App.scss";
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import './components/App.scss';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Home from './components/Home';
 import Experience from './components/Experience';
 import Projects from './components/Projects';
 import OpenSource from './components/OpenSource';
 import NavBar from './components/NavBar';
+import Footer from './components/Footer';
 
 function App() {
   return (
-    <div className="root">
+    <div className="App">
       <Router>
         <NavBar />
         <Routes>
@@ -17,6 +18,7 @@ function App() {
           <Route path="/projects" element={<Projects />} />
           <Route path="/experience" element={<Experience />} />
         </Routes>
+        <Footer />
       </Router>
     </div>
   );

@@ -1,6 +1,6 @@
 import React from 'react';
-import LinkedInIcon from '@mui/icons-material/LinkedIn'
-import TwitterIcon from '@mui/icons-material/Twitter'
+import LinkedInIcon from '@mui/icons-material/LinkedIn';
+import TwitterIcon from '@mui/icons-material/Twitter';
 import './Footer.scss';
 
 function Footer() {
@@ -15,4 +15,4 @@ function Footer() {
   );
 }
 
-export default Footer
+export default Footer;
