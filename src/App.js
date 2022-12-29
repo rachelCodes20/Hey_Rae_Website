@@ -1,19 +1,23 @@
-// import logo from './assets/logo'
-import './App.scss';
-import { Routes, Route } from 'react-router-dom'
-import Layout from './components/Layout'
+import "./components/App.scss";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import Home from './components/Home';
+import Experience from './components/Experience';
+import Projects from './components/Projects';
+import OpenSource from './components/OpenSource';
+import NavBar from './components/NavBar';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-       
-          <Routes>
-            <Route path="/" element={<Layout />} />
-          </Routes>
-       
-        
-      </header>
+    <div className="root">
+      <Router>
+        <NavBar />
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/opensource" element={<OpenSource />} />
+          <Route path="/projects" element={<Projects />} />
+          <Route path="/experience" element={<Experience />} />
+        </Routes>
+      </Router>
     </div>
   );
 }
