@@ -4,7 +4,8 @@ VerticalTimeline,
 VerticalTimelineElement }
 from 'react-vertical-timeline-component';
 import 'react-vertical-timeline-component/style.min.css';
-import SchoolIcon from '@mui/icons-material'; 
+import SchoolIcon from '@mui/icons-material/School'; 
+
 
 function Experience() {
   return (
@@ -12,7 +13,7 @@ function Experience() {
     
     <VerticalTimeline lineColor='#3e497a'>
       <VerticalTimelineElement className='vertical-timeline-element--education'
-      date='2003 - 2014'
+      date='2003 - 2007'
       iconStyle={{background:"#3e497a", color: '#fff'}}
       icon={<SchoolIcon />}
       ></VerticalTimelineElement>
