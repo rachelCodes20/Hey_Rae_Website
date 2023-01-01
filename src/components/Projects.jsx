@@ -1,8 +1,7 @@
 import React from 'react';
 import ProjectItem from '../components/ProjectItem';
 import image from '../assets/react-form-snippet.png';
-import './Projects.scss'
-
+import './Projects.scss';
 
 function Projects() {
   return (

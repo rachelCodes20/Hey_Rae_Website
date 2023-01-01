@@ -1,11 +1,11 @@
 import React from 'react';
-import { 
-VerticalTimeline, 
-VerticalTimelineElement }
-from 'react-vertical-timeline-component';
+import {
+  VerticalTimeline,
+  VerticalTimelineElement,
+} from 'react-vertical-timeline-component';
 import 'react-vertical-timeline-component/style.min.css';
-import SchoolIcon from '@mui/icons-material/School'; 
-import WorkIcon from '@mui/icons-material/Work'; 
+import SchoolIcon from '@mui/icons-material/School';
+import WorkIcon from '@mui/icons-material/Work';
 
 function Experience() {
   return (
@@ -40,9 +40,7 @@ function Experience() {
           icon={<SchoolIcon />}
         >
           <a href="https://www.codesmith.io/">
-            <h3 className="vertical-timeline-element-title">
-              Codesmith
-            </h3>
+            <h3 className="vertical-timeline-element-title">Codesmith</h3>
           </a>
           <h4>Fullstack Software Engineering Immersive</h4>
         </VerticalTimelineElement>
