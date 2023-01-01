@@ -8,7 +8,9 @@ function Projects() {
     <div className="projects">
       <h1>Personal Projects</h1>
       <div className="projectList">
-        <ProjectItem name="Styled React Form" image={image} />
+        <a href="https://github.com/rachelCodes20/reactForm">
+          <ProjectItem name="Styled React Form" image={image} />
+        </a>
       </div>
     </div>
   );

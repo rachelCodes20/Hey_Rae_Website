@@ -35,17 +35,6 @@ function Experience() {
         </VerticalTimelineElement>
         <VerticalTimelineElement
           className="vertical-timeline-element--education"
-          date="2022"
-          iconStyle={{ background: '#3e497a', color: '#fff' }}
-          icon={<SchoolIcon />}
-        >
-          <a href="https://www.codesmith.io/">
-            <h3 className="vertical-timeline-element-title">Codesmith</h3>
-          </a>
-          <h4>Fullstack Software Engineering Immersive</h4>
-        </VerticalTimelineElement>
-        <VerticalTimelineElement
-          className="vertical-timeline-element--education"
           date="2017"
           iconStyle={{ background: '#A020F0', color: '#fff' }}
           icon={<WorkIcon />}
@@ -56,10 +45,21 @@ function Experience() {
           <h4>After-School All-Stars, New York</h4>
           <p>
             Held dual responsibilities as an assistant for 3 Executives and DMM
-            duties including website updates distribution of monthly newsletter
-            via PHP scripting software and CSS as well as management of
-            fundraising platforms.
+            duties including website updates, distribution of the monthly
+            newsletter via PHP scripting software and CSS as well as management
+            of fundraising platforms.
           </p>
+        </VerticalTimelineElement>
+        <VerticalTimelineElement
+          className="vertical-timeline-element--education"
+          date="2022"
+          iconStyle={{ background: '#3e497a', color: '#fff' }}
+          icon={<SchoolIcon />}
+        >
+          <a href="https://www.codesmith.io/">
+            <h3 className="vertical-timeline-element-title">Codesmith</h3>
+          </a>
+          <h4>Fullstack Software Engineering Immersive</h4>
         </VerticalTimelineElement>
       </VerticalTimeline>
     </div>
