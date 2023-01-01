@@ -17,9 +17,10 @@ function Experience() {
           iconStyle={{ background: '#3e497a', color: '#fff' }}
           icon={<SchoolIcon />}
         >
-          <h3 calssName="vertical-timeline-element-title">SUNY Binghamton</h3>
-          <h4>New York</h4>
-          <p>Bachelor of Science</p>
+          <h3 className="vertical-timeline-element-title">
+            SUNY Binghamton, New York
+          </h3>
+          <h4>Bachelor of Science</h4>
         </VerticalTimelineElement>
         <VerticalTimelineElement
           className="vertical-timeline-element--education"
@@ -27,11 +28,10 @@ function Experience() {
           iconStyle={{ background: '#3e497a', color: '#fff' }}
           icon={<SchoolIcon />}
         >
-          <h3 calssName="vertical-timeline-element-title">
-            Long Island University
+          <h3 className="vertical-timeline-element-title">
+            Long Island University, New York
           </h3>
-          <h4>New York</h4>
-          <p>Master of Science</p>
+          <h4>Master of Science</h4>
         </VerticalTimelineElement>
         <VerticalTimelineElement
           className="vertical-timeline-element--education"
@@ -40,10 +40,11 @@ function Experience() {
           icon={<SchoolIcon />}
         >
           <a href="https://www.codesmith.io/">
-            <h3 calssName="vertical-timeline-element-title">Codesmith</h3>
+            <h3 className="vertical-timeline-element-title">
+              Codesmith
+            </h3>
           </a>
-          <h4>Remote</h4>
-          <p>Fullstack Software Engineering Immersive</p>
+          <h4>Fullstack Software Engineering Immersive</h4>
         </VerticalTimelineElement>
         <VerticalTimelineElement
           className="vertical-timeline-element--education"
@@ -51,11 +52,10 @@ function Experience() {
           iconStyle={{ background: '#A020F0', color: '#fff' }}
           icon={<WorkIcon />}
         >
-          <h3 calssName="vertical-timeline-element-title">
-            Executive Assistant/Development & Marketing Manager - After-School
-            All-Stars
+          <h3 className="vertical-timeline-element-title">
+            Executive Assistant/Development & Marketing
           </h3>
-          <h4>New York</h4>
+          <h4>After-School All-Stars, New York</h4>
           <p>
             Held dual responsibilities as an assistant for 3 Executives and DMM
             duties including website updates distribution of monthly newsletter

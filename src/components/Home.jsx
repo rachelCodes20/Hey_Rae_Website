@@ -12,7 +12,7 @@ function Home() {
         <div className="prompt">
           <p>
             A software Engineer with full stack training and a great passion for
-            user experience!
+            the user experience!
           </p>
           <LinkedInIcon />
           <EmailIcon />
