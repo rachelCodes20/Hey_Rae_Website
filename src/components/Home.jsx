@@ -2,7 +2,7 @@ import React from 'react';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import EmailIcon from '@mui/icons-material/Email';
 import GithubIcon from '@mui/icons-material/GitHub';
-import './Home.scss';
+import '../styles/Home.scss';
 
 function Home() {
   return (

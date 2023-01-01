@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { Link, useLocation } from 'react-router-dom';
-import './NavBar.scss';
+import '../styles/NavBar.scss';
 import ReorderIcon from '@mui/icons-material/Reorder';
 
 function NavBar() {
