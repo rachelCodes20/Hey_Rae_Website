@@ -14,9 +14,15 @@ function Home() {
             A software Engineer with full stack training and a great passion for
             the user experience!
           </p>
-          <LinkedInIcon />
+          <a href="https://www.linkedin.com/in/raecollins">
+            <LinkedInIcon />
+          </a>
+          <a href="mailto:rscollins2.0@gmail.com">
           <EmailIcon />
-          <GithubIcon />
+          </a>
+          <a href="https://github.com/rachelCodes20">
+            <GithubIcon />
+          </a>
         </div>
       </div>
       <div className="skills">
