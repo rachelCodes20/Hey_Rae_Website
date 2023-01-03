@@ -18,7 +18,7 @@ function Home() {
             <LinkedInIcon />
           </a>
           <a href="mailto:rscollins2.0@gmail.com">
-          <EmailIcon />
+            <EmailIcon />
           </a>
           <a href="https://github.com/rachelCodes20">
             <GithubIcon />

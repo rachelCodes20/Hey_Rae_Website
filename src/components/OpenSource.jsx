@@ -1,6 +1,6 @@
 import React from 'react';
 import '../styles/Projects.scss';
-import ssImage from '../assets/svelte-slicer-snippet.png'
+import ssImage from '../assets/svelte-slicer-snippet.png';
 import ProjectItem from '../components/ProjectItem';
 
 function OpenSource() {
@@ -19,7 +19,7 @@ function OpenSource() {
             alt="link to Svelte Slicer article on Medium.com"
             href="https://svelteslicer.medium.com/"
           >
-             Svelte Slicer - Medium
+            Svelte Slicer - Medium
           </a>
         </p>
         <a href="https://chrome.google.com/webstore/detail/svelte-slicer/ohimeoplnpnoeapbnmgeddijpfobbijl?hl=en-US">
