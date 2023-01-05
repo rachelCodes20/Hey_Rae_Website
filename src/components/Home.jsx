@@ -6,6 +6,7 @@ import '../styles/Home.scss';
 
 function Home() {
   return (
+    
     <div className="home">
       <div className="about">
         <h2>I'm Rachel!</h2>
