@@ -2,7 +2,7 @@
 .modalBackground {
   width: 100vw;
   height: 100vh;
-  background-color: rgb(183, 186, 234);
+  background-color: #f0f0f0;
   position: fixed;
   display: flex;
   justify-content: center;
@@ -16,12 +16,24 @@
 }
 
 .modalButton {
-  width: 500px;
-  height: 500px;
+  width: 300px;
+  height: 300px;
   border-radius: 12px;
-  background-color: white;
+  background-color: rgb(140, 188, 242);
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.modal-message {
+  padding-top: 100px;
+  padding-left: 100px;
+  padding-right: 100px;
+  margin-bottom: 0px;
+  font-family:'Calibri', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 30px;
+  font-weight:100;
+  text-align: distribute;
+   text-justify: auto;
 }

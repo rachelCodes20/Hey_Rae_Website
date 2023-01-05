@@ -2,7 +2,6 @@ import React from 'react';
 import Button from '@mui/material/Button';
 import '../styles/Modal.scss';
 import { createTheme, ThemeProvider } from '@mui/material/styles';
-import { blue } from '@mui/material/colors';
 
 const theme = createTheme({
   status: {
@@ -22,18 +21,29 @@ const theme = createTheme({
 
 function Modal ({ closeModal }) {
   return (
-    <div className="modalBackground">
-        <div className="button-container">
-      <div className="modalButton">
-        <ThemeProvider theme={theme}>
-            <Button className="mdc-button mdc-button--touch" variant="contained" onClick={() => closeModal(false)}>
-            <span className="mdc-button__label">Enter Rae's Realm...</span>
-            </Button>
-        </ThemeProvider>
+    <div>
+      <div className="modal-message">
+        I enjoy building and maintaining applications in addition to creating
+        visually and functionally satisfying user experiences. Welcome to my
+        site!
       </div>
+      <div className="modalBackground">
+        <div className="button-container">
+          <div className="modalButton">
+            <ThemeProvider theme={theme}>
+              <Button
+                className="mdc-button mdc-button--touch"
+                variant="contained"
+                size="large"
+                onClick={() => closeModal(false)}
+              >
+                <span className="mdc-button__label">Enter...</span>
+              </Button>
+            </ThemeProvider>
+          </div>
+        </div>
       </div>
     </div>
-    
   );
 }
 
