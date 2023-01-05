@@ -13,18 +13,20 @@ function App() {
   const [openModal, setOpenModal] = useState(true);
   return (
     <div className="App">
-        {openModal ? <ModalButton closeModal={setOpenModal}/> :
+      {openModal ? (
+        <ModalButton closeModal={setOpenModal} />
+      ) : (
         <Router>
-        <NavBar />
-        <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/opensource" element={<OpenSource />} />
-          <Route path="/projects" element={<Projects />} />
-          <Route path="/experience" element={<Experience />} />
-        </Routes>
-        <Footer />
-      </Router>
-      }
+          <NavBar />
+          <Routes>
+            <Route path="/" element={<Home />} />
+            <Route path="/opensource" element={<OpenSource />} />
+            <Route path="/projects" element={<Projects />} />
+            <Route path="/experience" element={<Experience />} />
+          </Routes>
+          <Footer />
+        </Router>
+      )}
     </div>
   );
 }

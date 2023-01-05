@@ -19,7 +19,7 @@ const theme = createTheme({
   },
 });
 
-function Modal ({ closeModal }) {
+function Modal({ closeModal }) {
   return (
     <div>
       <div className="modal-message">
@@ -47,4 +47,4 @@ function Modal ({ closeModal }) {
   );
 }
 
-export default Modal; 
+export default Modal;
