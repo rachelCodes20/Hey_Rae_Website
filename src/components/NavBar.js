@@ -11,7 +11,7 @@ function NavBar() {
     setExpandNav(false);
   }, [location]);
   return (
-    <div className="navbar" id={expandNav ? 'open' : 'closed'}>
+    <div className="navbar" id={expandNav ? 'open' : 'close'}>
       <div className="toggleButton">
         <button onClick={() => setExpandNav((prev) => !prev)}>
           <ReorderIcon />
