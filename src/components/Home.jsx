@@ -11,7 +11,7 @@ function Home() {
         <h2>I'm Rachel!</h2>
         <div className="prompt">
           <p>
-            A software Engineer with full stack training and a great passion for
+            A software engineer with full stack training and a great passion for
             the user experience!
           </p>
           <a href="https://www.linkedin.com/in/raecollins">

@@ -10,10 +10,18 @@ function Projects() {
       <h1>Personal Projects</h1>
       <div>
         <a href="https://github.com/rachelCodes20/reactForm">
-          <ProjectItem name="Styled React Form" image={image} />
+          <ProjectItem
+            name="Styled React Form"
+            alt="green and purple ReactJS user form"
+            image={image}
+          />
         </a>
         <a href="https://github.com/rachelCodes20/gifAPI">
-          <ProjectItem name="GifAPI" image={image2} />
+          <ProjectItem
+            name="GifAPI"
+            alt="3 GIPHS from a giphy api search + puppy"
+            image={image2}
+          />
         </a>
       </div>
     </div>

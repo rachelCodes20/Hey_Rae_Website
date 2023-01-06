@@ -27,8 +27,11 @@ function Modal({ closeModal }) {
           <div className="title">Welcome!</div>
           <div className="body">
             <p>
-              I enjoy building and maintaining applications in addition to
-              creating visually and functionally satisfying user experiences.
+              As a software developer with fullstack JS training. My frontend
+              specialities are CSS, HTML, React and Svelte. Much of my
+              development projects have utilized Node.js, SQL and NoSQL database
+              technologies like MySQL and MongoDB. I enjoy creating visually and
+              functionally satisfying user experiences.
             </p>
           </div>
           <div className="modalButton">

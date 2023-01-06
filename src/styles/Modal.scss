@@ -1,19 +1,18 @@
-@import url('https://fonts.googleapis.com/css2?family=Cedarville+Cursive&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Happy+Monkey&display=swap');
 
 .modalBackground {
   width: 100vw;
   height: 100vh;
   background-color: #4a77e7;
   position: fixed;
-  opacity: .8;
+  opacity: 0.8;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
 .button-container {
-  width: 500px;
-  height: 500px;
+  position: relative;
   border-radius: 12px;
   background-color: rgb(255, 255, 255);
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
@@ -23,11 +22,11 @@
 }
 
 .button-container .title {
-  display:inline-block;
+  display: inline-block;
   text-align: center;
   margin-top: 10px;
   font-size: 60px;
-  font-family: 'Cedarville Cursive', cursive;
+  font-family: 'Happy Monkey', cursive;
 }
 
 .button-container .body {
@@ -35,11 +34,7 @@
   text-align: center;
   margin-top: 10px;
   font-size: 30px;
-  font-family: 'Cedarville Cursive', cursive;
-}
-
-.modalButton {
- 
+  font-family: 'Happy Monkey', cursive;
 }
 
 .modalButton .title {
@@ -56,4 +51,5 @@
 .modalButton .mdc-button {
   font-size: 20px;
   font-weight: bold;
+  font-family: 'Happy Monkey', cursive;
 }

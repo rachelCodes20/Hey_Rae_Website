@@ -22,7 +22,7 @@ function Footer() {
           <GithubIcon />
         </a>
       </div>
-      <p>&copy; 2022 </p>
+      <p>&copy; Rae's Realm 2022 </p>
     </div>
   );
 }
