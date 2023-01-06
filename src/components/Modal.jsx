@@ -22,13 +22,15 @@ const theme = createTheme({
 function Modal({ closeModal }) {
   return (
     <div>
-      <div className="modal-message">
-        I enjoy building and maintaining applications in addition to creating
-        visually and functionally satisfying user experiences. Welcome to my
-        site!
-      </div>
       <div className="modalBackground">
         <div className="button-container">
+          <div className="title">Welcome to my site!</div>
+          <div className="body">
+            <p>
+              I enjoy building and maintaining applications in addition to
+              creating visually and functionally satisfying user experiences.
+            </p>
+          </div>
           <div className="modalButton">
             <ThemeProvider theme={theme}>
               <Button

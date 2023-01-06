@@ -9,30 +9,39 @@
 }
 
 .button-container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.modalButton {
-  width: 300px;
-  height: 300px;
+  width: 500px;
+  height: 500px;
   border-radius: 12px;
-  background-color: rgb(140, 188, 242);
+  background-color: white;
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
   display: flex;
-  justify-content: center;
-  align-items: center;
+  flex-direction: column;
+  padding: 40px;
 }
 
-.modal-message {
-  padding-top: 100px;
-  padding-left: 100px;
-  padding-right: 100px;
-  margin-bottom: 0px;
-  font-family: 'Calibri', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+.button-container .title {
+  display: inline-block;
+  text-align: center;
+  margin-top: 10px;
+  padding: 20px;
+  font-size: 50px;
+}
+
+.button-container .body {
+  display: inline-block;
+  text-align: center;
+  margin-top: 10px;
   font-size: 30px;
-  font-weight: 100;
-  text-align: distribute;
-  text-justify: auto;
+}
+
+.modalButton .title {
+  display: inline-block;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.button-container .modalButton {
+  text-align: center;
+  position: relative;
+  bottom: -50px;
 }
