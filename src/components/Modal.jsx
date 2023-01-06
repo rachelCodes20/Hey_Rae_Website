@@ -24,7 +24,7 @@ function Modal({ closeModal }) {
     <div>
       <div className="modalBackground">
         <div className="button-container">
-          <div className="title">Welcome to my site!</div>
+          <div className="title">Welcome!</div>
           <div className="body">
             <p>
               I enjoy building and maintaining applications in addition to
@@ -34,7 +34,7 @@ function Modal({ closeModal }) {
           <div className="modalButton">
             <ThemeProvider theme={theme}>
               <Button
-                className="mdc-button mdc-button--touch"
+                className="mdc-button"
                 variant="contained"
                 size="large"
                 onClick={() => closeModal(false)}
