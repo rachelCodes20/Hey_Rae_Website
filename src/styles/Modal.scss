@@ -53,3 +53,30 @@
   font-weight: bold;
   font-family: 'Happy Monkey', cursive;
 }
+
+
+@media only screen and (max-width: 761px) {
+  .modalBackground .button-container{
+      width: fit-content;
+      height: fit-content;
+  }
+
+  .button-container .body {
+      font-size: 15px;
+  }
+
+  .modalButton .mdc-button {
+      font-size: 10px;
+      bottom: 10px;
+      position: relative;
+  }
+
+  .button-container .title {
+      margin-top: 0px;
+      font-size: 25px;
+  
+  }
+  .button-container .modalButton {
+      bottom: -15px;
+  }
+}
