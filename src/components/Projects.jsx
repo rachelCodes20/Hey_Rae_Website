@@ -24,7 +24,7 @@ function Projects() {
             image={image2}
           />
         </a>
-        <a href="https://github.com/rachelCodes20/gifAPI">
+        <a href="https://github.com/rachelCodes20/nextjs-blog">
           <ProjectItem
             name="NexjtJS Blog"
             alt="Currently In Progress"
