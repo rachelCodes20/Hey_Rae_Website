@@ -26,7 +26,7 @@ function Projects() {
         </a>
         <a href="https://github.com/rachelCodes20/nextjs-blog">
           <ProjectItem
-            name="NexjtJS Blog"
+            name="NextJS Blog"
             alt="Currently In Progress"
             image={image3}
           />
