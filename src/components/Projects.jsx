@@ -2,7 +2,7 @@ import React from 'react';
 import ProjectItem from '../components/ProjectItem';
 import image from '../assets/react-form-snippet.png';
 import image2 from '../assets/giph-api-snippet.png';
-import image3 from '../assets/work-in-progress.png';
+import image3 from '../assets/work-in-progress.jpeg';
 import '../styles/Projects.scss';
 
 function Projects() {
