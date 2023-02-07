@@ -2,6 +2,7 @@ import React from 'react';
 import ProjectItem from '../components/ProjectItem';
 import image from '../assets/react-form-snippet.png';
 import image2 from '../assets/giph-api-snippet.png';
+import image3 from '../assets/work-in-progress.png';
 import '../styles/Projects.scss';
 
 function Projects() {
@@ -21,6 +22,13 @@ function Projects() {
             name="GifAPI"
             alt="3 GIPHS from a giphy api search + puppy"
             image={image2}
+          />
+        </a>
+        <a href="https://github.com/rachelCodes20/gifAPI">
+          <ProjectItem
+            name="NexjtJS Blog"
+            alt="Currently In Progress"
+            image={image3}
           />
         </a>
       </div>
