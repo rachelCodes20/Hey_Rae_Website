@@ -19,10 +19,10 @@ function App() {
         <Router>
           <NavBar />
           <Routes>
-            <Route path="/" element={<Home />} />
             <Route path="/opensource" element={<OpenSource />} />
             <Route path="/projects" element={<Projects />} />
             <Route path="/experience" element={<Experience />} />
+            <Route path="/" element={<Home />} />
           </Routes>
           <Footer />
         </Router>
